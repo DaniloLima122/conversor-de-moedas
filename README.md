@@ -29,7 +29,15 @@ obs: caso não tenha o git baixe-o em https://git-scm.com/downloads e instale
 npm install
 ~~~
 
-4º - Para ver o projeto rodando no seu navegador, digite no seu terminal:
+4º - Nesse projeto foi usada uma API gratuita de conversão de moedas, então você vai precisar obter sua própria chave de acesso:
+    
+- Acesse https://free.currencyconverterapi.com/free-api-key para obter sua API Key
+- No site será solicitado um email, informe o email e depois confira se a API Key foi enviada pra você no email informado!
+- Localize o arquivo "Conversor.js" que está no diretorio "src/componentes"
+- Na linha 28 desse arquivo, localize no final da url a palavra "apiKey=" e cole depois do sinal "=" o código de acesso da API que você recebeu no seu email.
+
+
+5º - E para ver o projeto rodando no seu navegador, digite no seu terminal:
 
 ~~~shell
 npm start

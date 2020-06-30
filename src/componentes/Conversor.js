@@ -25,7 +25,7 @@ class Coversor extends React.Component{
          
         let de_para = `${this.props.moedaA}_${this.props.moedaB}`;
 
-        let url = `https://free.currconv.com/api/v7/convert?q=${de_para}&compact=ultra&apiKey=0713d73f50d6ccf50d66`;
+        let url = `https://free.currconv.com/api/v7/convert?q=${de_para}&compact=ultra&apiKey=`;
 
         fetch(url)
         .then(result =>{
